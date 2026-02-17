@@ -9,25 +9,25 @@ def calculadora(num_1,num_2,num_3):
     operacion = input("Ingresa la operacion que deseas hacer: ")
     if  operacion == "suma":
         suma = num_1 + num_2
-        print(suma) 
+        print(f"El resultado de la operacion es:{suma} ") 
     elif operacion == "resta":
         resta = num_1 - num_2
-        print(resta)
+        print(f"El resultado de la operacion es:{resta} ")
     elif operacion == "multiplicacion":
         multiplicacion = num_1 * num_2
-        print(multiplicacion)
+        print(f"El resultado de la operacion es:{multiplicacion} ")
     elif operacion == "division":
         division = num_1/num_2
-        print(division)
+        print(f"El resultado de la operacion es:{division} ")
     elif operacion == "modulo":
         modulo = num_1 % num_2
-        print(modulo)
+        print(f"El resultado de la operacion es:{modulo} ")
     elif operacion == "suma2":
         suma_2 = num_1 + num_2 + num_3
-        print(suma_2)
+        print(f"El resultado de la operacion es:{suma_2} ")
     elif operacion == "multiple":
         multiple = num_3 * num_1 + num_2 / num_1
-        print(multiple)
+        print(f"El resultado de la operacion es:{multiple} ")
     
     
     
